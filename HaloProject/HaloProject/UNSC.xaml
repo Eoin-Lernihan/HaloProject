@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HaloProject.UNSC"
+             Title="UNSC" BackgroundImage="unsc.jpg"
+            >
+    <ScrollView>
+        <StackLayout>
+            <!--Tilte and descition for UNSC plus adds has the agents name label-->
+            <Grid HorizontalOptions="Center">
+                    <Label x:Name="IDNum" TextColor="White" Text="" HorizontalOptions="End"/>
+                    <Label HorizontalOptions="Center" TextColor="White" Text="UNSC" FontSize="Large"/>
+                </Grid>
+                <Grid>
+                    <Label TextColor="White" FontSize="Medium" 
+                           Text="The United Nations Space Command is the governing body of the Halo universe. Following the wars of present-day Earth, the UN reforms into the UNSC once extraterrestrial human colonies are established. The military makes up only a small part of the organization.">
+                    </Label>
+                </Grid>
+                <Grid HeightRequest="20" />
+            <!--List some important character for the UNSC but in a more ONI fashion-->
+                <Label HorizontalOptions="Start" VerticalOptions="Start" TextColor="White" FontSize="Medium" Text="Important Figures"/>
+             
+                <Grid>
+                    <Label FontSize="Medium" TextColor="White" Text="John-117"/>
+                    <Image Source="masterChief.png" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                    <Label FontSize="Small" TextColor="White"
+                        Text="Petty Officer John-117 or Master Chief is a genetically-modified SPARTAN II super-soldier, unfortunately he's also one of the last of his kind, as most of the other SPARTANs were wiped out. The Master Chief is powerful on his own, but he's even more lethal once Cortana is at his side. If we surive this war, his and the remaining Spantan existent might be a treat to us at oni due the ethics of the SPARTANs program"/>
+                </Grid>
+                <Grid>
+                    <Label FontSize="Medium" TextColor="White" Text="Cortana"/>
+                    <Image Source="cortana.png" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                    <Label FontSize="Small" TextColor="White"
+                        Text="The artificial intelligence know as Cortana is basically the Chief's co-pilot. Cortana is one of the most advanced pieces of technology that humanity has ever created. We are not sure how she will recacted if we remove the master chief for good."/>
+                </Grid>
+                <Grid>
+                    <Label FontSize="Medium" TextColor="White" Text="Avery Johnson"/>
+                    <Image Source="johnson.png" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                    <Label FontSize="Small" TextColor="White"
+                        Text="Avery Johnson is a sgt Sergeant Major in the UNSC Marine Corps. He was one of the few successful testsubject from the ORION Project. He is also only marie to surive the halo instaltion 04 along with the Master Cheif. Given all the his past and history with the Master Cheif he will need to be removed as well"/>
+                </Grid>
+                <Grid>
+                    <Label FontSize="Medium" TextColor="White" Text="Miranda Keyes"/>
+                    <Image Source="keyes.jpg" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                    <Label FontSize="Small" TextColor="White"
+                        Text="Miranda Keyes is the commanding officer of both the UNSC In Amber Clad as well as the UNSC Forward Unto Dawn. She is the daughters of both infamous Catherine Halsey and receantly deceased Jacob Keyes. He realation with her mother is unknow but after the rencent actack of earth, she jumped alongside the covenant vessel Solemn Penance with the Master Chief and sgt Jonhson aboard. She might need to be eliminated alongside them"/>
+                </Grid>
+            </StackLayout>
+    </ScrollView>
+
+</ContentPage>

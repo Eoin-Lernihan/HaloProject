@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HaloProject.Home"
+             BackgroundImage="oni.gif"
+             Title="Home">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--User can enter their own ID-->
+            <Grid HeightRequest="400"/>
+            <Grid WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center">
+                <Entry x:Name="EntryUser" Placeholder="Username" MaxLength="15" />
+            </Grid>
+            <!--This button allows you to go to the dictionary-->
+            <Button x:Name="BtnLogin" WidthRequest="200" FontSize="Micro" FontAttributes="Bold" TextColor="White" Text="Click here to start"                    
+                        Margin="0, 10" HorizontalOptions="Center" VerticalOptions="Center" Clicked="Login" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

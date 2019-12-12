@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HaloProject.Covenant"
+             Title="Covernant" BackgroundImage="covenant.jpeg"
+             xmlns:local="clr-namespace:LearningCarouselPage">
+    
+    <ScrollView >
+        <StackLayout >
+            <!--Tilte and descition for Covernant plus adds has the agents name label-->
+            <Grid>
+                <Label x:Name="IDNum" TextColor="White" Text="" HorizontalOptions="End"/>
+                <Label TextColor="White" FontSize="Large" Text="Covenant" HorizontalOptions="Center" VerticalOptions="Start"></Label>
+            </Grid>
+            <Grid>
+                    <Label FontSize="Medium" TextColor="White"
+                        Text="A conglomerate of alien species bent on humanity's destruction, the armies of the Covenant are almost unstoppable. Powered by ancient alien technology and fanatical religious beliefs, the Covenant believe it is their duty to wipe out humanity"/>
+                </Grid>
+                <Grid HeightRequest="20" />
+             <!--List some important character for the Covenant-->
+                <Grid>
+                    <Label HorizontalOptions="Start" VerticalOptions="Start" TextColor="White" FontSize="Medium" Text="Important Figures"/>
+                </Grid>
+                <Grid>
+                    <Label FontSize="Medium" TextColor="White" Text="Ord Casto"/>
+                    <Image Source="Truth.png" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                    <Label FontSize="Small" TextColor="White"
+                        Text="Ord Casto or more commonly know as the High Prophet of Truth is the leader of the three Prophet Hierarchs that led the Covenant High Council during the Ninth Age of Reclamation and one of the main instigators of the war against humanity. His ultimate goal seems to be to activate the Halo Rings and use them to remake the galaxy to his liking." />
+                </Grid>
+                <Grid>
+                    <Label FontSize="Medium" TextColor="White" Text="Thel' Vadamee "/>
+                    <Image Source="arbiter.jpg" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                    <Label FontSize="Small" TextColor="White"                 
+                           Text="Thel' Vadamee or recently known as Arbiter is a Sangheili. He was supreme commander and led the fleet of Particular Justice, particularly during the Battle of Reach and the Battle of Settlement 04, before being condemned by the Covenant High Council for incompetence and lack of faith. He received themark of shame, and became the eighteenth Arbiter to die in honor for Covenant."/>
+                </Grid>
+                <Grid>
+                    <Label FontSize="Medium" TextColor="White" Text="Tartarus"/>
+                    <Image Source="tartarus.jpg" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                    <Label FontSize="Small" TextColor="White" Text="Tartarus is the Chieftain of the Jiralhanae in the Covenant. Tartarus is the also know as the Right hand of Truth and carried out the dirty work for the prophet until Thel' Vadamee bacame the Arbiter"/>
+                </Grid>
+                <Grid>
+                    <Label FontSize="Medium" TextColor="White" Text="Rtas 'Vadum"/>
+                    <Image Source="rtas.jpg" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                    <Label FontSize="Small" TextColor="White" Text="Rtas 'Vadum nicknamed the Half-Jaw following the loss of two of his mandibles due to unknow reasons. Rtas served as a Covenant Special Operations Commander in the Fleet of Particular Justice, led by Supreme Commander Thel 'Vadamee, before the Battle of Installation 04. He now leads the fleet and works together with the newly appointed Arbiter."/>
+                </Grid>
+
+            <Grid HeightRequest="20" />
+            <!--List the main specices within the Covenant-->
+            <Label TextColor="White"  Text="The specices of the covenant " FontSize="Large" HorizontalOptions="Center"/>
+                <Label/>
+                <Grid>
+                <Label TextColor="White" Text="SANGHEILI" FontSize="Medium" />
+                    <Image Source="elite.jpg" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                <Label TextColor="White" FontSize="Small" 
+                           Text="The Sangheili also knowen as Elites are a proud warrior race of biped saurians who serve as the enforcers of the Prophets." />
+                </Grid>
+                <Grid>
+                <Label TextColor="White" FontSize="Medium" Text="JIRALHANAE"/>
+                    <Image Source="brute.jpg" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                <Label TextColor="White" FontSize="Small" 
+                           Text="The Jiralhanae also knowen as Brutes are a large and somewhat primitive bipeds historically deployed by the Covenant as shock troopers."/>
+                </Grid>
+                <Grid>
+                <Label TextColor="White" FontSize="Medium" Text="UNGGOY"/>
+                    <Image Source="grunt.png" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                <Label TextColor="White" FontSize="Small" 
+                           Text="Unggoy also knowen as grunts are squat, xeno-arthropodal bipeds. They are used as disposable infantry by many Sangheili and Jiralhanae."/>
+                </Grid>
+                <Grid>
+                <Label TextColor="White" FontSize="Medium" Text="KIG-YAR"/>
+                    <Image Source="Kig-Yar.png" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                    <Label TextColor="White" FontSize="Small" 
+                           Text="Kig-Yar has many different sub-species divided between Ruutian and Ibie'shan both also know as Jackal and the rarer T'vaoan also knowen as Skirmisher. They are commonly snipers or cannon foder."/>
+                </Grid>
+                <Grid>
+                <Label TextColor="White" Text="LEKGOLO" FontSize="Medium"/>
+                    <Image Source="hunter.png" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                <Label   FontSize="Small" TextColor="White" 
+                             Text="Lekgolo is a worm hive species that is extermly good with the use of techology. They uselly take a form called a hunter and scarbs." ></Label>
+                </Grid>
+                <Grid>
+                <Label TextColor="White" FontSize="Medium" Text="HURAGOK"/>
+                    <Image Source="engineer.png" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                <Label TextColor="White" FontSize="Small" 
+                           Text="The Huragok also knowen as Engineers an artificial species created by the Forerunners for the purpose of maintaining and repairing technology and installations. They are used by the Covenant to heal, shield and repair by froce. "/>
+                </Grid>
+                <Grid>
+                <Label TextColor="White" FontSize="Medium" Text="SAN'SHYUUM"/>
+                    <Image Source="prophet.png" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                <Label TextColor="White" FontSize="Small" 
+                           Text="The San'Shyuum also known as Prophets served as the head of the Covenant empire, governing over the Covenant's religious and political concerns. "/>
+                </Grid>
+                <Grid>
+                <Label TextColor="White" FontSize="Medium" Text="YANME'E"/>
+                <Image Source="drone.png" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                <Label TextColor="White" FontSize="Small" 
+                           Text="Yanme'e also know Drones, are a carnivorous arthropod species encountered in large, tenacious numbers."/>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>

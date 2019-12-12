@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HaloProject.Banished"
+             Title="Banished"
+             BackgroundImage="banished.jpg">
+
+    <ScrollView>
+        <StackLayout>
+            <!--Tilte and descition for Banished plus adds has the agents name label-->
+            <Grid>
+                    <Label x:Name="IDNum" TextColor="White" Text="" HorizontalOptions="End"/>
+                    <Label HorizontalOptions="Center" TextColor="White" FontSize="Large" Text="Banished"></Label>
+                </Grid>
+                <Grid>
+                    <Label TextColor="White" FontSize="Medium" 
+                           Text="This fanction is a splinter faction of the covenant, It contains some of the alien species who were mistreated by the covenant or some that prefer a paycheck. Even though they swore to destory the covenant,  they still belive in they lies told by them and have a hatered towards humanity. Though not as lagre as the covenant or UNSC, They pose a large threat to both size thanks to their leader">
+                    </Label>
+                </Grid>
+                <Grid HeightRequest="20" />
+            <!--List some important character for the Banished-->
+                <Grid>
+                    <Label HorizontalOptions="Start" VerticalOptions="Start" TextColor="White" FontSize="Medium" Text="Important Figures"/>
+                </Grid>
+                <Grid>
+                    <Label FontSize="Medium" TextColor="White" Text="Atriox"/>
+                    <Image Source="atriox.png" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                    <Label FontSize="Small" TextColor="White"
+                        Text="Vicious, cunning and brilliant, Atriox is a deadly warrior and the skilled warmaster leading the Banished. As Atriox continued to lose pack-mates over the course of many battles, his resentment toward the Covenant grew. The Prophet realised he could become a treat to the covenat and order his execution. During his executioner thrusted a bloodblade toward his face, however he caught the blade with his right hand and ran the executioner through with his own sword. This became the spark for the being of banished and Atriox."/>
+                </Grid>
+                <Grid>
+                        <Label FontSize="Medium" TextColor="White" Text="Decimus"/>
+                    <Image Source="decimus.png" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                    <Label FontSize="Small" TextColor="White" 
+                           Text="Atriox's right hand, Decimus is Atriox most trusted alies. Decimus was there when was meant to be executed. At that moment Decimus sprung into action. He and other Jiralhanae killed all of the Sangheili present in the immediate area. Forthwith, he fell to both knees before Atriox and pledged to follow him."/>
+                </Grid>
+                <Grid>
+                        <Label FontSize="Medium" TextColor="White" Text="Colony"/>
+                    <Image Source="colony.png" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                        <Label FontSize="Small" TextColor="White" 
+                               Text="A unique hunter duo that directing all Lekgolo forces during the Banished. Little is know about Colony other than it strange and inscrutable though it has a limtted speech patter with is very imperssive for any Lekgolo"/>
+                </Grid>
+                <Grid>
+                    <Label FontSize="Medium" TextColor="White" Text="Pavium"/>
+                    <Image Source="pavium.png" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                    <Label FontSize="Small" TextColor="White"
+                           Text="Pavium is an architect and siege master that constructed numerous fortifications for the Banished. Pavium is an unique Jiralhanae due to he rather build a denfence rather than actack unlike most Jiralhanae. Pavium would higher up in then ranks but is held back because of his younger and brasher brother Voridus  "/>
+                </Grid>
+            <Grid HeightRequest="20" />
+            <!--List the main specices within the Banished-->
+            <Label TextColor="White"  Text="The specices of the banished " FontSize="Large" HorizontalOptions="Center"/>
+                <Label TextColor="White"  Text="Please read the covenant specices page first" FontSize="Micro" HorizontalOptions="Center"/>
+                <Grid>
+                <Label TextColor="White" FontSize="Medium" Text="JIRALHANAE"/>
+                    <Image Source="brute2.jpg" HeightRequest="100" WidthRequest="100"/>
+                 </Grid>
+                <Grid>
+                  <Label TextColor="White" FontSize="Small" 
+                           Text="The Jiralhanae are the forces for the banished since it was originaly made of only brutes. This also means a lot of leaders within the banished are brutes"/>
+                </Grid>
+                <Grid>
+                <Label TextColor="White" FontSize="Medium" Text="UNGGOY"/>
+                    <Image Source="yapyap.png" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                <Label TextColor="White" FontSize="Small" 
+                           Text="The Unggoy are still used as disposable infantry and snacks to the Jiralhanae but there are some who have rose through the ranks."/>
+                </Grid>
+                <Grid>
+                <Label TextColor="White" Text="LEKGOLO" FontSize="Medium"/>
+                    <Image Source="hunter2.jpg" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                <Label   FontSize="Small" TextColor="White" 
+                             Text="Lekgolo is act as technician and tanks with in the banished. It is unknow why they joined as they are respected amongst the covenant, though it is believed to by because they are alound to use the forerunners techology without restiction" ></Label>
+                </Grid>
+                <Grid>
+                <Label TextColor="White" Text="SANGHEILI" FontSize="Medium" />
+                    <Image Source="elite2.png" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                <Label TextColor="White" FontSize="Small" 
+                           Text="The Sangheili weren't part of the banished for along time until atriox realised there use. The Sangheili that are part of the banised are all actually just mercenaries " />
+                </Grid>
+                <Grid>
+                <Label TextColor="White" FontSize="Medium" Text="HURAGOK"/>
+                    <Image Source="engineer2.jpg" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+                <Grid>
+                <Label TextColor="White" FontSize="Small" 
+                           Text="The Huragok that are in the branished didn't go by choice, as they were more taken and are use like tools. They are used more like field medics/mechanics"/>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    
+</ContentPage>
